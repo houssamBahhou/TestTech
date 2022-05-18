@@ -1,3 +1,6 @@
+--CREATE DATABASE TestTech
+
+-- Créer la table des lieux en ajoutant une clé primaire qui s'incrémente automatiquement
 CREATE TABLE lieux
 (
 	[id_lieux] INT IDENTITY(1,1) PRIMARY KEY,
@@ -6,6 +9,7 @@ CREATE TABLE lieux
 	[region] VARCHAR(64) NOT NULL
 )
 
+-- Créer la table des personnes en ajoutant une clé primaire qui s'incrémente automatiquement
 CREATE TABLE people
 (
 	[id_people] INT IDENTITY(1,1) PRIMARY KEY,
